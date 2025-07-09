@@ -1,3 +1,74 @@
+ Random GIF Generator
+A simple web app that fetches and displays a random GIF using the Giphy API. Refresh or click a button to get a new GIF every time!
+
+📸 Demo
+![Screenshot 2025-07-09 205709](https://github.com/user-attachments/assets/4a1668ce-3d58-4f19-9181-0ff85b0e58fa)
+
+
+🚀 Features
+Fetches a random GIF from Giphy
+
+Click a button to generate a new one
+
+Simple and responsive UI
+
+Fun and fast!
+
+🛠️ Built With
+React.js (or plain HTML/CSS/JavaScript)
+
+Axios or fetch() for API requests
+
+Giphy API
+
+📦 Installation
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/your-username/random-gif-generator.git
+cd random-gif-generator
+
+# Install dependencies (if using React)
+npm install
+
+# Start the development server
+npm start
+🔑 Giphy API Key Setup
+Go to https://developers.giphy.com/
+
+Create a free account and get your API key
+
+Add it to your .env file (if using React):
+
+env
+Copy
+Edit
+REACT_APP_GIPHY_API_KEY=your_api_key_here
+
+};
+📁 Project Structure
+
+📦 random-gif-generator
+┣ 📁 public
+┣ 📁 src
+┃ ┣ 📄 App.js
+┃ ┣ 📄 GifDisplay.js
+┃ ┗ 📄 styles.css
+┣ 📄 .env
+┣ 📄 README.md
+┗ 📄 package.json
+✨ Screenshots
+
+
+
+🙌 Contributing
+Contributions are welcome!
+Feel free to open an issue or pull request.
+
+📄 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
